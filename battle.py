@@ -1,13 +1,11 @@
 import ex0.factories as factories
 
 if __name__ == "__main__":
-
-
     print("Testing factory")
     flame_factoy = factories.FlameFactory()
     aqua_factory = factories.AquaFactory()
 
-    Flameling =flame_factoy.create_base()
+    Flameling = flame_factoy.create_base()
     print(Flameling.describe())
     print(Flameling.attack())
 
