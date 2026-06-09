@@ -28,7 +28,7 @@ if __name__ == "__main__":
     print(shiftling.attack())
     print(shiftling.transform())
     print(shiftling.attack())
-    print(shiftling.revert())   
+    print(shiftling.revert())
 
     print("evolved:")
     morphagon = transform_factory.create_evolved()

@@ -15,7 +15,7 @@ class CreatureFactory(ABC):
 class FlameFactory(CreatureFactory):
     def create_base(self) -> c.Creature:
         return c.Flameling()
-    
+
     def create_evolved(self) -> c.Creature:
         return c.Pyrodon()
 
@@ -23,8 +23,6 @@ class FlameFactory(CreatureFactory):
 class AquaFactory(CreatureFactory):
     def create_base(self) -> c.Creature:
         return c.Aquabub()
-    
+
     def create_evolved(self) -> c.Creature:
         return c.Torragon()
-            
-
